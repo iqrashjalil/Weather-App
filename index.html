@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex-Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <form>
+        <div class="first">
+          <input
+            id="search"
+            type="search"
+            spellcheck="false"
+            placeholder="Enter City"
+          />
+          <button id="btn" onclick="">
+            <img class="invert" src="search.svg" alt="" />
+          </button>
+        </div>
+        <div class="second">
+          <div class="name-info">
+            <img class="weatherimage" src="images/sunny.png" alt="" />
+            <h2 id="city"></h2>
+          </div>
+        </div>
+        <div class="weather-info flex">
+          <div class="temp-div">
+            <img class="invert" src="images/thermometer.png" alt="" />
+            <h2 id="temp">26*C</h2>
+          </div>
+          <div class="humidity-div">
+            <img src="images/humidity.png" alt="" />
+            <h2 id="humidity">40</h2>
+          </div>
+        </div>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

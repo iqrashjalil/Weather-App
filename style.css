@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background: black;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section{
+    padding: 30px;
+    width: 30vw;
+    height: 60vh;
+    background-color: #1e1e1e;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* #search{
+    
+   
+} */
+
+input {
+    box-sizing: border-box;
+     padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    outline: 2px solid blueviolet; /*Remove default input focus outline */
+    border: none;
+    background: #181818;
+    color: grey;
+    
+  }
+  input:focus {
+    border-color: blueviolet; /* Change border color on focus */
+    box-shadow: 0 0 25px rgba(183, 0, 255, 0.5);
+     /* Add a subtle box shadow */
+  }
+
+
+
+
+#btn{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.name-info{
+    color: grey;
+    font-size: 4rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name-info img{
+    width: 10rem;
+    height: 10rem;
+    
+}
+
+
+
+
+
+.weather-info{
+
+    width: 100%;
+    display: flex;
+    gap: 100px;
+
+}
+
+.temp-div{
+    /* background-color: blue; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: 2rem;
+}
+.temp-div img{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.humidity-div{
+    /* background-color: red; */
+    
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: 2rem;
+}
+
+.humidity-div img{
+    width: 4rem;
+    height: 4rem;
+
+}
